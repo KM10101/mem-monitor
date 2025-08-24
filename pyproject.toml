@@ -7,7 +7,11 @@ authors = [
     { name = "qli", email = "1787204269@qq.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "loguru>=0.7.3",
+    "psutil>=7.0.0",
+    "pyyaml>=6.0.2",
+]
 
 [build-system]
 requires = ["hatchling"]
